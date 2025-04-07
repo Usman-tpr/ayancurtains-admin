@@ -180,7 +180,7 @@ const TeamMembers = () => {
               <CardMedia
                 component="img"
                 height="200"
-                image={`http://localhost:5000/${member.image}`}
+                image={`https://admin.ayancurtains.com/${member.image}`}
                 alt={member.name || 'Team Member'}
                 sx={{ objectFit: 'cover' }}
               />
