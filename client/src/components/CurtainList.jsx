@@ -88,7 +88,7 @@ const CurtainList = () => {
                 <CardMedia
                   component="img"
                   height="200"
-                  image={curtain.image}
+                  image={`https://admin.ayancurtains.com/${curtain.image}`}
                   alt={curtain.title || 'Curtain Image'}
                   sx={{ objectFit: 'cover' }}
                 />
