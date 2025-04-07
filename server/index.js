@@ -16,7 +16,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['https://admin.ayancurtains.com', 'http://localhost:3000', 'http://localhost:5174'], // Add your main site's URL
+  origin: ['https://admin.ayancurtains.com', 'http://admin.ayancurtains.com','http://localhost:3000', 'http://localhost:5174'], // Add your main site's URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
